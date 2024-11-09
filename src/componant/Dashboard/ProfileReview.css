@@ -1,0 +1,134 @@
+/* Container styling */
+.profile-review {
+                                     
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+/* Profile header styling */
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.profile-image {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-info {
+  flex-grow: 1;
+}
+
+.details-button {
+  position: absolute;
+  right: 0;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.details-button:hover {
+  background-color: #0056b3;
+}
+
+/* Media section styling */
+.media-section {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.media-card {
+width: 335px;
+  flex: 1;
+  border: 1px solid rgba(0, 114, 254, 0.5);
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  background-color: rgba(0, 114, 254, 0.099);
+}
+
+.video-placeholder,
+.document-placeholder {
+  background-color: #f2f5f8;
+  padding: 10px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.video-thumbnail,
+.document-thumbnail {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* Play button styling */
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 32px;
+  color: white;
+  cursor: pointer;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Approval buttons */
+.approval-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+
+
+.input{
+    width: 96%;
+    border-radius: 4px;
+    border: 1px solid gray;
+     padding: 10px;
+     margin-bottom: 10px;
+     text-align: center;
+}
+.approve-button,
+.decline-button {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.approve-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.approve-button:hover {
+  background-color: #218838;
+}
+
+.decline-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+.decline-button:hover {
+  background-color: #c82333;
+}

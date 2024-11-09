@@ -1,0 +1,168 @@
+/* Container styling */
+.profile-container {
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Profile header styling */
+  .profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .profile-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .profile-info {
+    flex-grow: 1;
+  }
+  
+  .details-button {
+    position: absolute;
+    right: 0;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .details-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Details section styling */
+  .details-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .details-item {
+    font-size: 14px;
+  }
+  
+  .full-width {
+    grid-column: span 2;
+  }
+  
+  .label {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  /* About section */
+  .about-section {
+    margin-bottom: 20px;
+  }
+  
+  .about-section h3 {
+    color: #007bff;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .about-section p {
+    color: #333;
+  }
+  
+  /* Location section */
+  .location-section {
+    margin-bottom: 20px;
+  }
+  
+  .location-section h3 {
+    color: #007bff;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .map-container {
+    background-color: #f2f5f8;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .map-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  /* Approval buttons */
+  .approval-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .approve-button,
+  .decline-button {
+ 
+    margin: 0 5px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .approve-button {
+    background-color: #28a745;
+  }
+  
+  .approve-button:hover {
+    background-color: #218838;
+  }
+  
+  .decline-button {
+    background-color: #dc3545;
+  }
+  
+  .decline-button:hover {
+    background-color: #c82333;
+  }
+  .textColor{
+    color: #0072FE;
+  }
+  .documentStyle{
+ 
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px
+  }
+  .padding{
+    padding: 7px;
+  }
+  .document{
+  width: 200px;
+  height: 270px;
+  background-color: rgba(0, 114, 254, 0.064);
+
+  }
+  .title{
+   
+    text-align: center;
+  }
+  .document img{
+    width: 100%;
+  }
